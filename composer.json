@@ -1,0 +1,23 @@
+{
+    "name": "gamalan/ipaymu-php",
+    "description": "ipaymy php package",
+    "minimum-stability": "dev",
+    "keywords" : ["indonesia payment gateway","ipaymu","payment gateway"],
+    "license": "GPL-3.0",
+    "type" : "library",
+    "authors": [
+        {
+            "name": "Gamal A. N.",
+            "email": "inpdreamer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl" : "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ipaymu": "src/"
+        }
+    }
+}
